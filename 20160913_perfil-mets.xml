@@ -487,4 +487,358 @@
 			<xhtml:p xml:lang="es">Los METS acordes a este perfil deben ser validos según el programa JHOVE.</xhtml:p>
 		</note>
 	</tool>
+	<Appendix ID="a1" NUMBER="1" LABEL="apéndice1">
+		<mets PROFILE="https://github.com/SGA-AEP/mets-profile/edit/master/20160913_perfil-mets.xml" xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ead="http://ead3.archivists.org/schema/" xmlns:mix="http://www.loc.gov/standards/mix/mix20/" xmlns:rts="http://cosimo.stanford.edu/sdr/metsrights/" xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://ead3.archivists.org/schema/ https://raw.githubusercontent.com/SAA-SDT/EAD3/v1.0.0/ead3.xsd http://www.loc.gov/premis/v3 http://www.loc.gov/standards/premis/premis.xsd  http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd http://cosimo.stanford.edu/sdr/metsrights/ http://www.loc.gov/standards/rights/METSRights.xsd">
+			<metsHdr CREATEDATE="2016-09-09T10:05:24" RECORDSTATUS="REVISADO">
+				<agent ROLE="CREATOR" TYPE="ORGANIZATION">
+					<name>Subdirección General de Arquivos</name>
+				</agent>
+				<agent ROLE="EDITOR" TYPE="ORGANIZATION">
+					<name>nombre de la empresa que realiza el fichero METS</name>
+				</agent>
+				<agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
+					<name>Arquivo del Reino de Galicia</name>
+				</agent>
+				<agent ROLE="PRESERVATION" TYPE="ORGANIZATION">
+					<name>Arquivo del Reino de Galicia</name>
+				</agent>
+				<agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+					<name>Arquivo del Reino de Galicia</name>
+				</agent>
+				<agent ROLE="IPOWNER" TYPE="ORGANIZATION">
+					<name>Nombre del propietario de los derechos de propiedad intelectual</name>
+				</agent>
+			</metsHdr>
+			<dmdSec ID="DM1">
+				<mdWrap MDTYPE="EAD">
+					<xmlData>
+						<ead:ead>
+							<ead:control script="Latn" repositoryencoding="iso15511" langencoding="iso639-2b" dateencoding="iso8601" countryencoding="iso3166-1" audience="external">
+								<ead:recordid>ADGD160016656</ead:recordid>
+								<ead:filedesc>
+									<ead:titlestmt>
+										<ead:titleproper>El cabildo de Tuy con Esteban Pérez de Ceta, sobre reivindicación por el Lugar de Francelos</ead:titleproper>
+									</ead:titlestmt>
+									<ead:publicationstmt>
+										<ead:publisher>Xunta de Galicia</ead:publisher>
+									</ead:publicationstmt>
+								</ead:filedesc>
+								<ead:maintenancestatus value="new"/>
+								<ead:maintenanceagency>
+									<ead:agencycode>15030.ARG</ead:agencycode>
+									<ead:agencyname>Archivo del Reino de Galicia</ead:agencyname>
+								</ead:maintenanceagency>
+								<ead:maintenancehistory>
+									<ead:maintenanceevent>
+										<ead:eventtype value="derived"/>
+										<ead:eventdatetime>20160512193907.0</ead:eventdatetime>
+										<ead:agenttype value="machine"/>
+										<ead:agent>ead_comun.xsl</ead:agent>
+									</ead:maintenanceevent>
+								</ead:maintenancehistory>
+							</ead:control>
+							<ead:archdesc level="fonds">
+								<ead:did>
+									<ead:unittitle>Real Audiencia de Galicia</ead:unittitle>
+								</ead:did>
+								<ead:dsc>
+									<ead:c01 level="subseries">
+										<ead:did>
+											<ead:unitid repositorycode="ES.GA.15030.ARG" label="Código de referencia">ES.GA.15030.ARG/1.1.1.2.3.1.2.2</ead:unitid>
+											<ead:unitid label="Número de identificación del sistema">ARCG20150000083</ead:unitid>
+											<ead:unittitle>Cabidos e igrexas</ead:unittitle>
+											<ead:unitdate label="Datas" unitdatetype="inclusive" normal="1540/2001">1540-2001</ead:unitdate>
+											<ead:physdesc label="Extensión">153 unidades de instalación de documentos maioritariamente textuais, en papel</ead:physdesc>
+										</ead:did>
+										<ead:c02 level="file">
+											<ead:did>
+												<ead:unitid label="Código de referencia">ES.GA.15030.ARG.1.1.1.2.3.1.2.2.//C-848-18</ead:unitid>
+												<ead:unitid label="Número de identificación del sistema">ADGD160016656</ead:unitid>
+												<ead:unitid repositorycode="ES.GA.15030.ARG"/>
+												<ead:physloc label="Signatura">C-848-18</ead:physloc>
+												<ead:unittitle label="Título">El cabildo de Tuy con Esteban Pérez de Ceta, sobre reivindicación por el Lugar de Francelos</ead:unittitle>
+												<ead:unitdate unitdatetype="inclusive" label="Data de inicio">1574</ead:unitdate>
+												<ead:unitdate label="Siglo">XVI</ead:unitdate>
+												<ead:container label="Signatura">C-848-18</ead:container>
+												<ead:origination>
+													<ead:corpname relator="Productor">
+														<ead:part>Real Audiencia de Galicia</ead:part>
+													</ead:corpname>
+												</ead:origination>
+											</ead:did>
+											<ead:controlaccess>
+												<ead:subject localtype="Descriptor de materia">
+													<ead:part>Reivindicación de lugar-lugares</ead:part>
+												</ead:subject>
+												<ead:geogname localtype="Descriptor geográfico">
+													<ead:part>Tui, Toponimo Moderno</ead:part>
+												</ead:geogname>
+												<ead:geogname localtype="Descriptor geográfico">
+													<ead:part>Tuy, Toponimo Antigo</ead:part>
+												</ead:geogname>
+												<ead:geogname localtype="Descriptor geográfico">
+													<ead:part>Francelos, Lugar de </ead:part>
+												</ead:geogname>
+												<ead:persname localtype="Descriptor de personas">
+													<ead:part>Perez de Ceta, Esteban, Demandado</ead:part>
+												</ead:persname>
+											</ead:controlaccess>
+										</ead:c02>
+									</ead:c01>
+								</ead:dsc>
+							</ead:archdesc>
+						</ead:ead>
+					</xmlData>
+				</mdWrap>
+			</dmdSec>
+			<dmdSec ID="DM2">
+				<mdWrap MDTYPE="OTHER" OTHERMDTYPE="DMDGOM">
+					<xmlData>
+						<grupoObjetoMultimedia mimeType="image/jpeg" presentacionDef="miniaturas" tieneOCR="false" visor="defecto" nombre="El cabildo de Tuy con Esteban Pérez de Ceta, sobre reivindicación por el Lugar de Francelos" descripcion="Copia digital">
+							<imagenFavorita>JPEGID-2968534</imagenFavorita>
+						</grupoObjetoMultimedia>
+					</xmlData>
+				</mdWrap>
+			</dmdSec>
+			<amdSec ID="AMDMETSRIGHTS">
+				<rightsMD ID="RIGHTS001">
+					<mdWrap MDTYPE="METSRIGHTS">
+						<xmlData>
+							<rts:RightsDeclarationMD RIGHTSCATEGORY="PUBLIC DOMAIN">
+								<rts:RightsDeclaration>http://creativecommons.org/publicdomain/mark/1.0/</rts:RightsDeclaration>
+								<rts:RightsHolder RIGHTSHOLDERID="HOLDER001">
+									<rts:RightsHolderName>Galicia. Subdirección Xeral de Arquivos</rts:RightsHolderName>
+									<rts:RightsHolderContact>
+										<rts:RightsHolderContactAddress>Cidade da Cultura. 15707 Santiago de Compostela</rts:RightsHolderContactAddress>
+										<rts:RightsHolderContactPhone>+34981544816</rts:RightsHolderContactPhone>
+										<rts:RightsHolderContactEmail>email@xunta.es</rts:RightsHolderContactEmail>
+									</rts:RightsHolderContact>
+								</rts:RightsHolder>
+								<rts:Context CONTEXTCLASS="GENERAL PUBLIC">
+									<rts:Permissions DISCOVER="true" DISPLAY="true" COPY="true" DUPLICATE="true" MODIFY="false" DELETE="false" PRINT="true" OTHER="false"/>
+								</rts:Context>
+								<rts:Context CONTEXTCLASS="REPOSITORY MGR">
+									<rts:Permissions DISCOVER="true" DISPLAY="true" COPY="true" DUPLICATE="true" MODIFY="true" DELETE="true" PRINT="true" OTHER="false"/>
+								</rts:Context>
+							</rts:RightsDeclarationMD>
+						</xmlData>
+					</mdWrap>
+				</rightsMD>
+			</amdSec>
+			<amdSec>
+				<techMD ID="PREMISOBJ-FILE-2968261">
+					<mdWrap MDTYPE="PREMIS:OBJECT">
+						<xmlData>
+							<premis:object xsi:type="premis:file">
+								<premis:objectIdentifier>
+									<premis:objectIdentifierType>object_identifier_type.IDFICHERO</premis:objectIdentifierType>
+									<premis:objectIdentifierValue>2968261</premis:objectIdentifierValue>
+								</premis:objectIdentifier>
+								<premis:objectCharacteristics>
+									<premis:compositionLevel>0</premis:compositionLevel>
+									<premis:fixity>
+										<premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+										<premis:messageDigest>b8e28e23039c171e50e8d25e014cd656</premis:messageDigest>
+										<premis:messageDigestOriginator>message_digest_originator</premis:messageDigestOriginator>
+									</premis:fixity>
+									<premis:size>5947392</premis:size>
+									<premis:format>
+										<premis:formatDesignation>
+											<premis:formatName>image/tiff</premis:formatName>
+										</premis:formatDesignation>
+									</premis:format>
+									<premis:creatingApplication>
+										<premis:creatingApplicationName>creating_application_name</premis:creatingApplicationName>
+										<premis:creatingApplicationVersion>1.0</premis:creatingApplicationVersion>
+										<premis:dateCreatedByApplication>2014-11-17T07:41:26</premis:dateCreatedByApplication>
+									</premis:creatingApplication>
+								</premis:objectCharacteristics>
+								<premis:storage>
+									<premis:contentLocation>
+										<premis:contentLocationType>URL</premis:contentLocationType>
+										<premis:contentLocationValue>file:///tiff/exemplo_1_01.tif</premis:contentLocationValue>
+									</premis:contentLocation>
+									<premis:storageMedium>USB Disk</premis:storageMedium>
+								</premis:storage>
+							</premis:object>
+							<premis:objectCharacteristicsExtension>
+								<mix:mix>
+									<mix:BasicDigitalObjectInformation>
+										<mix:ObjectIdentifier>
+											<mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+										</mix:ObjectIdentifier>
+										<mix:byteOrder>little endian</mix:byteOrder>
+										<mix:Compression>
+											<mix:compressionScheme>LZW</mix:compressionScheme>
+										</mix:Compression>
+									</mix:BasicDigitalObjectInformation>
+									<mix:BasicImageInformation>
+										<mix:BasicImageCharacteristics>
+											<mix:imageWidth>2667</mix:imageWidth>
+											<mix:imageHeight>1955</mix:imageHeight>
+											<mix:PhotometricInterpretation>
+												<mix:colorSpace>RGB</mix:colorSpace>
+												<mix:ReferenceBlackWhite>
+													<mix:Component>
+														<mix:componentPhotometricInterpretation>R</mix:componentPhotometricInterpretation>
+														<mix:footroom>
+															<mix:numerator>0</mix:numerator>
+														</mix:footroom>
+														<mix:headroom>
+															<mix:numerator>255</mix:numerator>
+														</mix:headroom>
+													</mix:Component>
+													<mix:Component>
+														<mix:componentPhotometricInterpretation>G</mix:componentPhotometricInterpretation>
+														<mix:footroom>
+															<mix:numerator>0</mix:numerator>
+														</mix:footroom>
+														<mix:headroom>
+															<mix:numerator>255</mix:numerator>
+														</mix:headroom>
+													</mix:Component>
+													<mix:Component>
+														<mix:componentPhotometricInterpretation>B</mix:componentPhotometricInterpretation>
+														<mix:footroom>
+															<mix:numerator>0</mix:numerator>
+														</mix:footroom>
+														<mix:headroom>
+															<mix:numerator>255</mix:numerator>
+														</mix:headroom>
+													</mix:Component>
+												</mix:ReferenceBlackWhite>
+											</mix:PhotometricInterpretation>
+										</mix:BasicImageCharacteristics>
+									</mix:BasicImageInformation>
+									<mix:ImageCaptureMetadata>
+										<mix:orientation>normal*</mix:orientation>
+									</mix:ImageCaptureMetadata>
+									<mix:ImageAssessmentMetadata>
+										<mix:SpatialMetrics>
+											<mix:samplingFrequencyUnit>in.</mix:samplingFrequencyUnit>
+											<mix:xSamplingFrequency>
+												<mix:numerator>629145600</mix:numerator>
+												<mix:denominator>2097152</mix:denominator>
+											</mix:xSamplingFrequency>
+											<mix:ySamplingFrequency>
+												<mix:numerator>629145600</mix:numerator>
+												<mix:denominator>2097152</mix:denominator>
+											</mix:ySamplingFrequency>
+										</mix:SpatialMetrics>
+										<mix:ImageColorEncoding>
+											<mix:BitsPerSample>
+												<mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+												<mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+												<mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+											</mix:BitsPerSample>
+											<mix:samplesPerPixel>3</mix:samplesPerPixel>
+										</mix:ImageColorEncoding>
+									</mix:ImageAssessmentMetadata>
+								</mix:mix>
+							</premis:objectCharacteristicsExtension>
+						</xmlData>
+					</mdWrap>
+				</techMD>
+				<digiprovMD ID="PREMISEVT-DIG-2968261">
+					<mdWrap MDTYPE="PREMIS:EVENT">
+						<xmlData>
+							<event>
+								<eventIdentifier>
+									<eventIdentifierType>DIG</eventIdentifierType>
+									<eventIdentifierValue>2968261</eventIdentifierValue>
+								</eventIdentifier>
+								<eventType>capture</eventType>
+								<eventDateTime>2014-11-17T07:41:26</eventDateTime>
+								<creatingApplication>
+									<creatingApplicationName>i2s Digibook Scanner</creatingApplicationName>
+									<creatingApplicationVersion>Suprascan 10000 RGB</creatingApplicationVersion>
+								</creatingApplication>
+								<linkingAgentIdentifier>
+									<linkingAgentIdentifierType>Common name</linkingAgentIdentifierType>
+									<linkingAgentIdentifierValue>agent_identifier_value</linkingAgentIdentifierValue>
+									<premis:linkingAgentRole>digitization agency</premis:linkingAgentRole>
+								</linkingAgentIdentifier>
+								<linkingObjectIdentifier>
+									<linkingObjectIdentifierType>DIGIOUT.IDFICHERO</linkingObjectIdentifierType>
+									<linkingObjectIdentifierValue>2968261</linkingObjectIdentifierValue>
+									<linkingObjectRole>digitized file</linkingObjectRole>
+								</linkingObjectIdentifier>
+							</event>
+						</xmlData>
+					</mdWrap>
+				</digiprovMD>
+				<digiprovMD ID="PREMISEVT-VAL-2968261">
+					<mdWrap MDTYPE="PREMIS:EVENT">
+						<xmlData>
+							<event>
+								<eventIdentifier>
+									<eventIdentifierType>VAL</eventIdentifierType>
+									<eventIdentifierValue>2968261</eventIdentifierValue>
+								</eventIdentifier>
+								<eventType>validation</eventType>
+								<eventDateTime>2014-11-20T11:53:34+01:00</eventDateTime>
+								<creatingApplication>
+									<creatingApplicationName>JHOVE</creatingApplicationName>
+									<creatingApplicationVersion>1.11</creatingApplicationVersion>
+								</creatingApplication>
+								<linkingAgentIdentifier>
+									<linkingAgentIdentifierType>Common name</linkingAgentIdentifierType>
+									<linkingAgentIdentifierValue>agent_identifier_value</linkingAgentIdentifierValue>
+									<premis:linkingAgentRole>validator</premis:linkingAgentRole>
+								</linkingAgentIdentifier>
+								<linkingObjectIdentifier>
+									<linkingObjectIdentifierType>object_identifier_type.IDFICHERO</linkingObjectIdentifierType>
+									<linkingObjectIdentifierValue>2968261</linkingObjectIdentifierValue>
+									<linkingObjectRole>validated file</linkingObjectRole>
+								</linkingObjectIdentifier>
+							</event>
+						</xmlData>
+					</mdWrap>
+				</digiprovMD>
+				<digiprovMD ID="PREMISAG-001">
+					<mdWrap MDTYPE="PREMIS:AGENT">
+						<xmlData>
+							<premis:agent>
+								<premis:agentIdentifier>
+									<premis:agentIdentifierType>Common name</premis:agentIdentifierType>
+									<premis:agentIdentifierValue>agent_identifier_value</premis:agentIdentifierValue>
+								</premis:agentIdentifier>
+								<premis:agentName>agent_name</premis:agentName>
+							</premis:agent>
+						</xmlData>
+					</mdWrap>
+				</digiprovMD>
+			</amdSec>
+			<fileSec>
+				<fileGrp USE="archive">
+					<file ID="TIFFID-2968261" MIMETYPE="image/tiff" SEQ="1" CREATED="2014-11-17T07:41:26">
+						<FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file:///ES.GA.15030.ARG/C-848-18/tiff/ES.GA.15030.ARG_C-848-18_00001.tiff"/>
+					</file>
+				</fileGrp>
+				<fileGrp USE="reference">
+					<file ID="JPEGID-2968534" MIMETYPE="image/jpeg" SEQ="1" CREATED="2014-11-18T07:20:00">
+						<FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file:///ES.GA.15030.ARG/C-848-18/jpeg/ES.GA.15030.ARG_C-848-18_00001.jpg"/>
+					</file>
+				</fileGrp>
+				<fileGrp USE="reference">
+					<file ID="PDFID-2969361" MIMETYPE="application/pdf" SEQ="1" CREATED="2014-11-19T08:21:12">
+						<FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file:///ES.GA.15030.ARG/C-848-18/pdf/ES.GA.15030.ARG_C-848-18_00001.pdf"/>
+					</file>
+				</fileGrp>
+			</fileSec>
+			<structMap LABEL="El cabildo de Tuy con Esteban Pérez de Ceta, sobre reivindicación por el Lugar de Francelos" TYPE="physical">
+				<div LABEL="El cabildo de Tuy con Esteban Pérez de Ceta, sobre reivindicación por el Lugar de Francelos" DMDID="DM1" TYPE="book">
+					<div ORDER="1" LABEL="[Cubierta]" TYPE="page">
+						<fptr FILEID="TIFFID-2968261"/>
+						<fptr FILEID="JPEGID-2968534"/>
+					</div>
+				</div>
+			</structMap>
+			<structMap LABEL="El cabildo de Tuy con Esteban Pérez de Ceta, sobre reivindicación por el Lugar de Francelos" TYPE="mixed">
+				<div LABEL="El cabildo de Tuy con Esteban Pérez de Ceta, sobre reivindicación por el Lugar de Francelos" DMDID="DM1" TYPE="book">
+					<fptr FILEID="PDFID-2969361"/>
+				</div>
+			</structMap>
+		</mets>
+	</Appendix>
 </METS_Profile>
