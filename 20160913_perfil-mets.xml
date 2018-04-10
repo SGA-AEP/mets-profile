@@ -497,13 +497,13 @@
 					<name>Subdirección Xeral de Arquivos</name>
 				</agent>
 				<agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
-					<name>Arquivo del Reino de Galicia</name>
+					<name>Arquivo do Reino de Galicia</name>
 				</agent>
 				<agent ROLE="PRESERVATION" TYPE="ORGANIZATION">
-					<name>Arquivo del Reino de Galicia</name>
+					<name>Arquivo Dixital de Galicia</name>
 				</agent>
 				<agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
-					<name>Arquivo del Reino de Galicia</name>
+					<name>Arquivo do Reino de Galicia</name>
 				</agent>
 				<agent ROLE="IPOWNER" TYPE="ORGANIZATION">
 					<name>Nombre del propietario de los derechos de propiedad intelectual</name>
