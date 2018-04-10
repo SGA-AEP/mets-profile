@@ -56,7 +56,7 @@
 		</note>
 	</external_schema>
 	<description_rules>
-		<xhtml:p xml:lang="es">Las descripciones archivísticas deben seguir la Norma Gallega de Descripción Archivística (NOGADA), versión 2ª. Febrero 2010.</xhtml:p>
+		<xhtml:p xml:lang="es">Las descripciones archivísticas deben seguir la Norma Internacional General de Descripción Archivística (ISAD(G)), 2.ª ed., 2000. De forma complementaria se utilizará la Norma Gallega de Descripción Archivística (NOGADA), versión 2ª., Febrero 2010.</xhtml:p>
 	</description_rules>
 	<controlled_vocabularies>
 		<vocabulary>
