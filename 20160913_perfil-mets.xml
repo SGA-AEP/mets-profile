@@ -9,7 +9,7 @@
 		<institution>Galicia. Subdirección Xeral de Arquivos</institution>
 		<address>Cidade da Cultura. 15707 Santiago de Compostela</address>
 		<phone>+34 981 544 816</phone>
-		<email>email@xunta.es</email>
+		<email>subdireccion.arquivos@xunta.gal</email>
 	</contact>
 	<related_profile RELATIONSHIP="based on" URI="http://www.loc.gov/mets/profiles/00000004.xml">Model Imaged Object Profile</related_profile>
 	<related_profile RELATIONSHIP="based on" URI="http://www.loc.gov/mets/profiles/00000044.xml">Perfil METS-BVPB para ingesta y preservación de recursos digitales</related_profile>
@@ -548,7 +548,7 @@
 											<ead:unitid label="Número de identificación del sistema">ARCG20150000083</ead:unitid>
 											<ead:unittitle>Cabidos e igrexas</ead:unittitle>
 											<ead:unitdate label="Datas" unitdatetype="inclusive" normal="1540/2001">1540-2001</ead:unitdate>
-											<ead:physdesc label="Extensión">153 unidades de instalación de documentos maioritariamente textuais, en papel</ead:physdesc>
+											<ead:physdesc label="Extensión">153 unidades de instalación de documentos mayoritariamente textuales en papel</ead:physdesc>
 										</ead:did>
 										<ead:c02 level="file">
 											<ead:did>
@@ -611,7 +611,7 @@
 									<rts:RightsHolderContact>
 										<rts:RightsHolderContactAddress>Cidade da Cultura. 15707 Santiago de Compostela</rts:RightsHolderContactAddress>
 										<rts:RightsHolderContactPhone>+34981544816</rts:RightsHolderContactPhone>
-										<rts:RightsHolderContactEmail>email@xunta.es</rts:RightsHolderContactEmail>
+										<rts:RightsHolderContactEmail>subdireccion.arquivos@xunta.gal</rts:RightsHolderContactEmail>
 									</rts:RightsHolderContact>
 								</rts:RightsHolder>
 								<rts:Context CONTEXTCLASS="GENERAL PUBLIC">
