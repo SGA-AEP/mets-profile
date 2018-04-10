@@ -2,10 +2,10 @@
 <mets PROFILE="https://github.com/SGA-AEP/mets-profile/blob/master/20160913_perfil-mets.xml" xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ead="http://ead3.archivists.org/schema/" xmlns:mix="http://www.loc.gov/standards/mix/mix20/" xmlns:rts="http://cosimo.stanford.edu/sdr/metsrights/" xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://ead3.archivists.org/schema/ https://raw.githubusercontent.com/SAA-SDT/EAD3/v1.0.0/ead3.xsd http://www.loc.gov/premis/v3 http://www.loc.gov/standards/premis/premis.xsd  http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd http://cosimo.stanford.edu/sdr/metsrights/ http://www.loc.gov/standards/rights/METSRights.xsd">
 	<metsHdr CREATEDATE="2016-09-09T10:05:24" RECORDSTATUS="REVISADO">
 		<agent ROLE="CREATOR" TYPE="ORGANIZATION">
-			<name>Subdirección General de Arquivos</name>
+			<name>nombre de la empresa que realiza el fichero METS</name>
 		</agent>
 		<agent ROLE="EDITOR" TYPE="ORGANIZATION">
-			<name>nombre de la empresa que realiza el fichero METS</name>
+			<name>Subdirección Xeral de Arquivos</name>
 		</agent>
 		<agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
 			<name>Arquivo del Reino de Galicia</name>
