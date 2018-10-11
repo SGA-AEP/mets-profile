@@ -45,6 +45,7 @@
 			<xhtml:p xml:lang="es">Este perfil establece que los metadatos de preservación se codifican siguiendo el esquema PREMIS y el PREMIS Data Dictionary versión 3.0.</xhtml:p>
 			<xhtml:p xml:lang="en">This profile establishes preservation metadata are mandatorily coded using the PREMIS schema and the PREMIS Data Dictionary version 3.0.</xhtml:p>
 		</note>
+	</external_schema>
 	<external_schema ID="MIX">
 		<name>NISO Metadata for Images in XML (NISO MIX)</name>
 		<URL>http://www.loc.gov/standards/mix/</URL>
